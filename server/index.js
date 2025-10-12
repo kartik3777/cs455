@@ -7,6 +7,7 @@ const userRoutes = require('./app/routes/userRoutes')
 const cors = require ('cors')
 const tripRoutes = require('./app/routes/tripRoutes')
 const bookingRoutes = require('./app/routes/bookingRoutes')
+const availabilityRoutes = require("./app/routes/availabilityRoutes")
 
 
 app = express()
@@ -36,6 +37,7 @@ app.get('/',(req,res)=>{
 app.use('/api/users',userRoutes);
 app.use('/api/trips',tripRoutes);
 app.use('/api/bookings', bookingRoutes);
+app.use("/api/availability", availabilityRoutes);
 
 
 const port = process.env.PORT ||5000   
