@@ -6,25 +6,16 @@ const router = express.Router();
 
 // Only logged-in providers can add trips
 router.post("/add", tripController.addTrip);
-// Get all available trips (public)
-// router.get("/all", tripController.getAllTrips);
-// router.get("/flights", tripController.getAvailableFlights);
-// router.get("/trains", tripController.getAvailableTrains);
-// router.get("/buses", tripController.getAvailableBuses);
 router.get("/date/:date", tripController.getTripsByDateUser);
- 
 // Get trips of the logged-in provider
 router.get("/provider/:id", tripController.getProviderTrips);
 // router.get("/by-date/:date", tripController.getTripsByDate);
 router.get("/provider/:providerId/by-date/:date", tripController.getProviderTripsByDate);
 router.get("/provider/:tripId/customers/:travelDate", tripController.getTripCustomersByDate);
-
 // ✅ Get a single trip by ID
 router.get("/:id", tripController.getTripById);
-
 // ✅ Update a trip by ID
 router.put("/:id", tripController.updateTrip);
-
 // Delete (cancel) a trip (provider only)
 router.delete("/:id", tripController.deleteTrip);
 
