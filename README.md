@@ -21,24 +21,18 @@ Follow these instructions to run the project locally.
 
 ### 1. Clone the Repository
 
-git clone <your-repo-url>
+git clone https://github.com/kartik3777/cs455.git
 cd BookYourTrip
 
 ### 2. Setting up the Server
 
-Navigate to the server folder:
-
-cd server
+Navigate to the server folder: cd server
 
 
-Install dependencies:
-
-npm install
+Install dependencies: npm install
 
 
-Start the backend server:
-
-npm start
+Start the backend server: npm start
 
 ### 3. Setting up the Client
 
@@ -47,14 +41,10 @@ Open a new terminal and navigate to the client folder:
 cd client
 
 
-Install dependencies:
-
-npm install
+Install dependencies: npm install
 
 
-Start the frontend application:
-
-npm start
+Start the frontend application: npm start
 
 The client app will open in your default browser (usually at http://localhost:3000).
 
