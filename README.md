@@ -1,8 +1,16 @@
 # BookYourTrip
 
+## Description
+
 BookYourTrip is a travel booking application that allows users to browse trips, book them, and manage bookings. Providers can create, update, and manage trips. The project is divided into two main folders: **client** and **server**.
 
----
+
+## Table of Contents 
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+
 
 ## Folder Structure
 
@@ -13,15 +21,13 @@ BookYourTrip/
 └── server/ # Backend API (Node.js + Express)
 
 
----
-
-## Getting Started
+## Installation
 
 Follow these instructions to run the project locally.
 
 ### 1. Clone the Repository
 
-git clone https://github.com/kartik3777/cs455.git
+git clone https://github.com/CS455-Software-Engineering/cs455-project-group-5.git
 
 
 ### 2. Setting up the Server
@@ -63,3 +69,28 @@ Backend: Node.js, Express
 Database: MongoDB (or your chosen database)
 
 Authentication: JWT, OTP verification
+
+
+## Usage
+
+Provide instructions and examples for use. Include screenshots as needed.
+
+To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+
+    ```md
+    ![alt text](assets/images/screenshot.png)
+    ```
+
+## Credits
+
+Kartik 220503 kartik22@iitk.ac.in
+
+
+
+
+
+
+
+
+
+
