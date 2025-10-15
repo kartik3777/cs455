@@ -8,6 +8,43 @@ The system also integrates *AI-based chat assistance* and *dynamic pricing sugge
 
 ---
 
+## Installation and Setup
+
+### 1. Clone the Repository
+bash
+git clone https://github.com/CS455-Software-Engineering/cs455-project-group-5.git
+cd cs455-project-group-5
+
+
+### 2. Backend Setup
+bash
+cd server
+npm install
+
+
+
+Start the backend:
+
+npm start
+
+(Default port: 5000)
+
+### 3. Frontend Setup
+bash
+cd client
+npm install
+
+
+
+Start the React app:
+npm start
+
+
+Visit: [http://localhost:3000](http://localhost:3000)
+
+---
+
+
 ## Key Features (Functional Requirements)
 
 - *Provider Dashboard:*  
@@ -77,44 +114,6 @@ The system also integrates *AI-based chat assistance* and *dynamic pricing sugge
 
 ---
 
-## Installation and Setup
-
-### 1. Clone the Repository
-bash
-git clone <repository_url>
-cd cs455-main
-
-
-### 2. Backend Setup
-bash
-cd server
-npm install
-
-
-
-Start the backend:
-bash
-npm run start
-# or
-npm run dev
-
-(Default port: 5000)
-
-### 3. Frontend Setup
-bash
-cd client
-npm install
-
-
-
-Start the React app:
-bash
-npm start
-
-
-Visit: [http://localhost:3000](http://localhost:3000)
-
----
 
 ##  User Interface Overview
 
