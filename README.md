@@ -116,30 +116,30 @@ Visit: [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 🧾 User Interface Overview
+##  User Interface Overview
 
-### 🧍‍♀️ Customer View
+###  Customer View
 
-#### 🪪 Signup Page
+####  Signup Page
 ![Signup Page](./images/Signup_Page.jpg)
 Users can create an account by entering basic details like name, email, and password. Validation ensures data accuracy before submission.
 
-#### 🔑 Login Page
+####  Login Page
 ![Login Page](./images/Login_Page.jpg)
 Registered users can log in securely using JWT authentication for access to their personalized dashboard.
 
 ####  Customer Dashboard
 ![Customer Dashboard](./images/Customer_Dashboard.jpg)
-Displays upcoming trips, booking history, and quick actions like rescheduling or cancellation.  
-Users can search trips or manage personal details.
-
-####  Ticket Booking
-![Ticket Booking](./images/Ticket_Booking.jpg)
+Displays upcoming trips details.  
 Users can choose source and destination, select travel dates, view available trips, and proceed with booking.
+
+####  Seat Details and Confirmations
+![Seat Booking Details](./images/Seat_Booking.jpg)
+User can see the number of available seats in the selected journey and choose the number of seats required for booking.
 
 ####  Customer Details
 ![Customer Details](./images/Customer_Details.jpg)
-Collects passenger information such as name, age, and ID type before confirming a booking.
+Collects passenger information such as name, age, and gender before confirming a booking.
 
 ####  Payment
 ![Payment](./images/Payment.jpg)
@@ -156,8 +156,9 @@ Displays a confirmation message with booking ID and trip details once the paymen
 
 ####  Provider Dashboard
 ![Provider Dashboard](./images/Provider_Dashboard.png)
-Main control panel for providers — shows analytics, total bookings, and available trips.  
+Main control panel for providers — total available trips.  
 Providers can edit or remove existing listings.
+Providers can see the passenger details for each trip.
 
 ####  Edit Trip
 ![Edit Trip](./images/Edit_Trip.png)
@@ -169,7 +170,7 @@ Interface to add new travel listings by entering trip details like route, date, 
 
 ####  Travellers Detail
 ![Travellers Detail](./images/Travellers_Detail.png)
-Provides the details of all the customers who booked the specific trip.
+Provider can see the details of all the customers who booked the specific trip.
 ---
 
 
@@ -194,7 +195,7 @@ Data Layer          → MongoDB Database (Data Storage)
 
 ---
 
-### 👨‍💻 Authors
+###  Authors
 *BookYourTrip Development Team*
 Arnab Das | Kartik | Lakshyta Mahajan
 *Tech Stack:* React | Node.js | Express | MongoDB | JWT | Material UI  
