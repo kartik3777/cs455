@@ -22,7 +22,7 @@ Follow these instructions to run the project locally.
 ### 1. Clone the Repository
 
 git clone https://github.com/kartik3777/cs455.git
-cd BookYourTrip
+
 
 ### 2. Setting up the Server
 
