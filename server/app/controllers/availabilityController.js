@@ -2,6 +2,7 @@ const dailyAvailabilityModel = require("../models/DailyAvailability");
 const tripModel = require("../models/Trip");
 const catchAsync = require("../utils/catchAsync");
 
+
 exports.getAvailability = catchAsync(async (req, res, next) => {
   const { tripId } = req.params;
   const { date } = req.query;
