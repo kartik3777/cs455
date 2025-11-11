@@ -20,7 +20,7 @@ app.use(express.json())
 app.use(morgan());
 
 
-const DB = process.env.MONGODB_ATLAS_CONN_STR
+const DB = process.env.MONGO_URI
 mongoose.connect(DB)
     .then(con=>{
         console.log("connected to mongoDB")
