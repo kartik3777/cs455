@@ -1,8 +1,9 @@
-const mongoose = require('mongoose')
-const morgan = require('morgan')
-const express = require('express')
-const dotenv = require('dotenv')
-dotenv.config({path:'./.env'})
+const mongoose = require('mongoose');
+const morgan = require('morgan');
+const express = require('express');
+const path = require('path');
+const dotenv = require('dotenv');
+dotenv.config({ path: path.resolve(__dirname, '.env') });
 const userRoutes = require('./app/routes/userRoutes')
 const cors = require ('cors')
 const tripRoutes = require('./app/routes/tripRoutes')
